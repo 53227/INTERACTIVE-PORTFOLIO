@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(to right, rgba(6, 113, 100, 0.523), rgb(210, 207, 210));
+    color: #0c0a0a;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 0 20px rgba(127, 125, 125, 0.845);
+  }
+  
+  nav {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  nav button {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #0b8183;
+    color: white;
+    cursor: pointer;
+  }
+  
+  nav button:hover {
+    background-color: #035753;
+  }
+  
+  .section {
+    display: none;
+    margin-top: 20px;
+  }
+  
+  .section.active {
+    display: block;
+  }
+  
+  #certificate-viewer {
+    margin-top: 20px;
+  }
+  
+  #certificate-viewer img {
+    width: 100%;
+    max-width: 500px;
+    border: 2px solid #aaa;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  
