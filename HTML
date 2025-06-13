@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sreehana Chakra | Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css"/>
+  <script defer src="portfolio.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Sreehana Chakra Yakkati</h1>
+      <p>Web Developer | Data Science Enthusiast | Lifelong Learner</p>
+    </header>
+
+    <nav>
+      <button onclick="showSection('about')">About</button>
+      <button onclick="showSection('skills')">Skills</button>
+      <button onclick="showSection('certifications')">Certifications</button>
+      <button onclick="showSection('github')">GitHub</button>
+      <button onclick="showSection('contact')">Contact</button>
+    </nav>
+
+    <main>
+      <section id="about" class="section active">
+        <h2>About Me</h2>
+        <p>Hi, I'm <strong>Sreehana Chakra Yakkati</strong>, a passionate web developer seeking opportunities to grow, innovate, and contribute to impactful projects. I love learning new technologies and solving real-world problems.</p>
+      </section>
+
+      <section id="skills" class="section">
+        <h2>Skills</h2>
+        <ul>
+          <li><strong>Scripting:</strong> HTML, CSS, JavaScript</li>
+          <li><strong>Frameworks:</strong> Node.js</li>
+          <li><strong>Programming:</strong> Python</li>
+          <li><strong>Tools:</strong> Git, GitHub</li>
+          <li><strong>Platform:</strong> Windows</li>
+          <li><strong>Database:</strong> SQL</li>
+        </ul>
+      </section>
+
+      <section id="certifications" class="section">
+        <h2>Certifications</h2>
+        <ul>
+          <li><a href="https://drive.google.com/file/d/1IyBpemzIaWOY9gEzpu998LAq8z3gyLha/view?usp=drive_link" onclick="showCertificate('Cert 1')">Udemy Data Science Bootcamp</a></li>
+          <li><a href="https://drive.google.com/file/d/1VgGs04-RdjAo_FFtvEWbQxM2seTim1UZ/view?usp=drive_link'" onclick="showCertificate('Cert 2')">NPTEL - Python</a></li>
+          <li><a href="https://drive.google.com/file/d/10ksNXhflwu59OGLJd6U3_ZbnyiN0MDNr/view?usp=drive_link" onclick="showCertificate('Cert 3')">Coursera - University of Maryland</a></li>
+          <li><a href="https://drive.google.com/file/d/1eOUoCxoY1OngFqcHdWUeMqUBNZgpBTxB/view?usp=drive_link" onclick="showCertificate('Cert 4')">Deloitte - Data Analysis</a></li>
+          <li><a href="https://drive.google.com/file/d/1OTP-yAB72PSA2Jx3x_amI_6RWZ0aG9cN/view?usp=drive_link" onclick="showCertificate('Cert 5')">Infosys - Introduction to Data Science</a></li>
+          <li><a href="https://drive.google.com/file/d/13DqfHbEki5VPJq-aB2ci8NTLyOqcxRiX/view?usp=drive_lin" onclick="showCertificate('Cert 6')">Amazon - Solution Architecture Simulation</a></li>
+        </ul>
+        <div id="certificate-viewer"></div>
+      </section>
+
+      <section id="github" class="section">
+        <h2>GitHub Portfolio</h2>
+        <p>Explore my projects and contributions on <a href="https://github.com/53227" target="_blank">GitHub</a>.</p>
+      </section>
+
+      <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:sreehanachakra@gmail.com">sreehanachakra@gmail.com</a></p>
+        <p>Phone: +91 62811 33707</p>
+        <p>GitHub: <a href="https://github.com/53227" target="_blank">github.com/53227</a></p>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
